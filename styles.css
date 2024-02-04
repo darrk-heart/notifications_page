@@ -1,0 +1,29 @@
+body {
+  /* background-color: hsl(210, 60%, 98%); */
+  background-color: black;
+}
+.back {
+  background-color: white;
+  width: 45%;
+  height: 550px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  padding: 15px;
+}
+.topic {
+  display: flex;
+  justify-content: space-between;
+}
+.topic h1 {
+  font-size: 20px;
+}
+.topic span {
+  background-color: hsl(224, 84%, 17%);
+  color: white;
+  padding: 3px;
+  font-size: 15px;
+  border-radius: 3px;
+}
