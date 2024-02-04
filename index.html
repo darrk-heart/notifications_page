@@ -31,15 +31,15 @@
       <div class="topic">
         <h1>Notifications <span>3</span></h1>
 
-        <p>Mark all as read</p>
+        <p onclick="readAll()">Mark all as read</p>
       </div>
-      <div class="content one">
+      <div class="content one" id="first">
         <img src="assets\images\avatar-mark-webber.webp" alt="mark" />
         <div class="first-text-out">
           <div class="first-text">
             <p>
-              <strong>Mark Webber</strong> reacted to your recent post My first
-              tournament today!
+              <strong>Mark Webber</strong> reacted to your recent post
+              <span class="active">My first tournament today!</span>
             </p>
             <div class="circle"></div>
           </div>
@@ -47,18 +47,21 @@
         </div>
       </div>
 
-      <div class="content two">
+      <div class="content two" id="second">
         <img src="assets\images\avatar-angela-gray.webp" alt="angela gray" />
         <div class="first-text-out">
           <div class="first-text">
-            <p><strong>Angela Gray</strong> followed you</p>
+            <p>
+              <strong><span class="active">Angela Gray</span></strong> followed
+              you
+            </p>
             <div class="circle"></div>
           </div>
           <p>5m ago</p>
         </div>
       </div>
 
-      <div class="content three">
+      <div class="content three" id="third">
         <img
           src="assets\images\avatar-jacob-thompson.webp"
           alt="Jacob Thompson"
@@ -66,7 +69,8 @@
         <div class="first-text-out">
           <div class="first-text">
             <p>
-              <strong>Jacob Thompson</strong> has joined your group Chess Club
+              <strong>Jacob Thompson</strong> has joined your group
+              <span class="active">Chess Club</span>
             </p>
             <div class="circle"></div>
           </div>
@@ -74,7 +78,7 @@
         </div>
       </div>
 
-      <div class="content four">
+      <div class="content four" id="fourth">
         <img src="assets\images\avatar-rizky-hasanuddin.webp" alt="risky" />
         <div class="first-text-out">
           <div class="first-text">
@@ -88,7 +92,7 @@
         few weeks now and I'm already having lots of fun and improving my game.
       </div>
 
-      <div class="content five">
+      <div class="content five" id="fifth">
         <img src="assets\images\avatar-kimberly-smith.webp" alt="kimberly" />
         <div class="first-text-out">
           <div class="first-text">
@@ -102,7 +106,7 @@
           alt="chess kimberly"
         />
       </div>
-      <div class="content six">
+      <div class="content six" id="sixth">
         <img
           src="assets\images\avatar-nathan-peterson.webp"
           alt="nathan Peterson"
@@ -110,22 +114,34 @@
         <div class="first-text-out">
           <div class="first-text">
             <p>
-              <strong>Nathan Peterson</strong> reacted to your recent post 5
-              end-game strategies to increase your win rate
+              <strong>Nathan Peterson</strong> reacted to your recent post
+              <span class="active state"
+                >5 end-game strategies to increase your win rate</span
+              >
             </p>
           </div>
           <p>2 weeks ago</p>
         </div>
       </div>
-      <div class="content seven">
+      <div class="content seven" id="seventh">
         <img src="assets\images\avatar-anna-kim.webp" alt="Ana Kim" />
         <div class="first-text-out">
           <div class="first-text">
-            <p><strong>Anna Kim</strong> left the group Chess Club</p>
+            <p>
+              <strong>Anna Kim</strong> left the group
+              <span class="active state">Chess Club</span>
+            </p>
           </div>
           <p>2 weeks ago</p>
         </div>
       </div>
     </div>
+    <script>
+      function readAll() {
+        document.getElementById("first").style.backgroundColor = "white";
+        document.getElementById("second").style.backgroundColor = "white";
+        document.getElementById("third").style.backgroundColor = "white";
+      }
+    </script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 body {
   /* background-color: hsl(210, 60%, 98%); */
-  background-color: hsl(210, 60%, 98%);
+  background-color: hsl(210, 43%, 92%);
 }
 .back {
   background-color: white;
@@ -10,7 +10,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 10px;
 }
 .topic {
@@ -22,7 +22,7 @@ body {
   padding-left: 20px;
 }
 .topic span {
-  background-color: hsl(224, 84%, 17%);
+  background-color: hsl(224, 85%, 24%);
   color: white;
   padding: 3px;
   font-size: 15px;
@@ -32,8 +32,11 @@ body {
 }
 .topic p {
   font-size: 13px;
-  margin-top: 20px;
-  opacity: 0.5;
+  margin-top: 15px;
+}
+.topic p:hover {
+  cursor: pointer;
+  color: hsl(224, 85%, 24%);
 }
 .circle {
   background-color: red;
@@ -46,7 +49,7 @@ body {
 .first-text {
   display: flex;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: -15px;
 }
 .first-text-out {
   display: inline;
@@ -58,7 +61,7 @@ body {
 }
 .content {
   font-size: 15px;
-  background-color: hsl(210, 60%, 98%);
+  background-color: hsl(210, 43%, 92%);
   width: 90%;
   position: fixed;
   left: 50%;
@@ -94,7 +97,7 @@ body {
   background-color: white;
 }
 .six {
-  top: 485px;
+  top: 490px;
   background-color: white;
 }
 .seven {
@@ -104,14 +107,31 @@ body {
 
 .private-message {
   margin-top: 290px;
-  border: 1px solid black;
+  border: 1px solid #e0e0e0;
   width: 85%;
   margin-left: 70px;
   padding: 10px;
-  border-radius: 7px;
+  border-radius: 5px;
   padding-left: 10px;
   padding-right: 1px;
 }
+.private-message:hover {
+  background-color: hsl(210, 43%, 92%);
+  cursor: pointer;
+}
 .chess {
-  padding-left: 160px;
+  padding-left: 150px;
+}
+.chess:hover {
+  cursor: pointer;
+}
+.active:hover {
+  cursor: pointer;
+  color: hsl(224, 85%, 24%);
+}
+.active {
+  font-weight: bolder;
+}
+.state {
+  opacity: 0.8;
 }
