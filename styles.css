@@ -58,7 +58,7 @@ body {
 }
 .content {
   font-size: 15px;
-  background-color: hsl(208, 16%, 77%);;
+  background-color: hsl(210, 60%, 98%);
   width: 90%;
   position: fixed;
   left: 50%;
@@ -112,6 +112,6 @@ body {
   padding-left: 10px;
   padding-right: 1px;
 }
-.chess{
-    padding-left: 160px;
+.chess {
+  padding-left: 160px;
 }
