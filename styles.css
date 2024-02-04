@@ -1,11 +1,11 @@
 body {
   /* background-color: hsl(210, 60%, 98%); */
-  background-color: black;
+  background-color: hsl(210, 60%, 98%);
 }
 .back {
   background-color: white;
   width: 40%;
-  height: 580px;
+  height: 630px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -19,6 +19,7 @@ body {
 }
 .topic h1 {
   font-size: 20px;
+  padding-left: 20px;
 }
 .topic span {
   background-color: hsl(224, 84%, 17%);
@@ -57,7 +58,7 @@ body {
 }
 .content {
   font-size: 15px;
-  background-color: yellow;
+  background-color: hsl(208, 16%, 77%);;
   width: 90%;
   position: fixed;
   left: 50%;
@@ -84,6 +85,21 @@ body {
 }
 .four {
   top: 280px;
+  background-color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.five {
+  top: 430px;
+  background-color: white;
+}
+.six {
+  top: 485px;
+  background-color: white;
+}
+.seven {
+  top: 560px;
+  background-color: white;
 }
 
 .private-message {
@@ -95,4 +111,7 @@ body {
   border-radius: 7px;
   padding-left: 10px;
   padding-right: 1px;
+}
+.chess{
+    padding-left: 160px;
 }
