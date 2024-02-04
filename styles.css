@@ -5,13 +5,13 @@ body {
 .back {
   background-color: white;
   width: 45%;
-  height: 550px;
+  height: 580px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 8px;
-  padding: 15px;
+  padding: 10px;
 }
 .topic {
   display: flex;
@@ -26,4 +26,34 @@ body {
   padding: 3px;
   font-size: 15px;
   border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.topic p {
+  font-size: 13px;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+.circle {
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+.first-text {
+  display: flex;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.first-text-one {
+  display: inline;
+}
+.first-text-one p {
+  padding-top: 0;
+  margin-top: 0;
+}
+.content {
+  font-size: 15px;
 }
