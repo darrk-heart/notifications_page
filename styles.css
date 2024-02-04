@@ -4,7 +4,7 @@ body {
 }
 .back {
   background-color: white;
-  width: 45%;
+  width: 40%;
   height: 580px;
   position: fixed;
   top: 50%;
@@ -36,10 +36,10 @@ body {
 }
 .circle {
   background-color: red;
-  height: 10px;
+  height: 11px;
   width: 10px;
   border-radius: 50%;
-  margin-top: 6px;
+  margin-top: 4px;
   margin-left: 5px;
 }
 .first-text {
@@ -47,13 +47,52 @@ body {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-.first-text-one {
+.first-text-out {
   display: inline;
+  padding-left: 10px;
 }
-.first-text-one p {
+.first-text-out p {
   padding-top: 0;
   margin-top: 0;
 }
 .content {
   font-size: 15px;
+  background-color: yellow;
+  width: 90%;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 7px;
+  padding: 15px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  display: flex;
+}
+.content img {
+  width: 35px;
+  height: 35px;
+}
+.one {
+  top: 70px;
+}
+.two {
+  top: 140px;
+}
+.three {
+  top: 210px;
+}
+.four {
+  top: 280px;
+}
+
+.private-message {
+  margin-top: 290px;
+  border: 1px solid black;
+  width: 85%;
+  margin-left: 70px;
+  padding: 10px;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 1px;
 }
